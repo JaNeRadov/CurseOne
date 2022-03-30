@@ -35,9 +35,9 @@ for i in 1...100{
     arrayOt0Do100.append(i)
 }
 print (arrayOt0Do100)
-//удалить из массива все четные числа и числа которые не делятся на 3 
+//удалить из массива все четные числа и числа которые не делятся на 3
 for i in arrayOt0Do100{
-if i % 2 == 0 && i % 3 != 0{
+if i % 2 == 0 || i % 3 != 0{
 arrayOt0Do100.remove(at: arrayOt0Do100.firstIndex(of: i) ?? 0)
 }
 }
