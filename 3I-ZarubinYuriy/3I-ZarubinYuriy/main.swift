@@ -23,9 +23,6 @@ enum WindowStatusBacDoor{
     case open
     case close
 }
-enum {
-    
-}
 struct SportCar {
     
     let model: String
