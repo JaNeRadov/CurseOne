@@ -88,5 +88,8 @@ class PriceOneC {
 }
 
 
+let product = PriceOneC()
+product.creditDeposite = 250000
+try product.verificate(itemBaseName: "MacBook Pro")
 
 
